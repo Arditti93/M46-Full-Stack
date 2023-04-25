@@ -18,7 +18,7 @@ const Login = ({newUser}) => {
 
     return (
         <>
-            <h1>Login Below</h1>
+            <h2>Login</h2>
 
             <form onSubmit={submitHandler}>
                 <label>Username:

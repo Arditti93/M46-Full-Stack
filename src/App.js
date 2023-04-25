@@ -1,5 +1,6 @@
 import React from "react";
 import Login from './components/Login'
+import Register from './components/Register'
 
 import {useState } from 'react'
 
@@ -9,6 +10,9 @@ const App = () => {
 
   return (
     <div>
+      <Register />
+      <br></br>
+      <br></br>
       <Login newUser={setUser} />
       {user 
         ?
